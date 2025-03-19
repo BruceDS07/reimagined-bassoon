@@ -1,0 +1,26 @@
+{
+  "name": "download-site",
+  "version": "0.0.1",
+  "description": "Download videos from youtube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [
+    "download",
+    "videos",
+    "youtube",
+    "quality"
+  ],
+  "author": "Fanarrow<BruceDS@tuta.io>",
+  "license": "MIT"
+}
