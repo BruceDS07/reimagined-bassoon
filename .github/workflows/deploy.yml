@@ -32,13 +32,13 @@ jobs:
         run: "npm i"
 
       - name: Build step
-        run: "npm start"
+        run: "deno task build"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "ytdl-site"
-          entrypoint: "index.js"
+          entrypoint: "./index.js"
           root: "."
           
           
