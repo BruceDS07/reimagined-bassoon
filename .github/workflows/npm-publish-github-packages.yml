@@ -31,6 +31,5 @@ jobs:
         with:
           node-version: 20
       - run: npm i
-      - run: npm start
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
